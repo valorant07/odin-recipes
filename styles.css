@@ -1,0 +1,78 @@
+
+.quicksand-<uniquifier> {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.main-img {
+width: 560px;
+height: 320px;
+border-radius: 24px;
+background-image: url("recipes/img/lasagna.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+align-content: center;
+display: flex;
+align-items: flex-end;   /* függőlegesen: alul */
+justify-content: flex-start; /* vízszintesen: balra */
+
+
+}
+
+.title-container {
+padding: 8px;
+color: white;
+height: auto;
+
+}
+
+
+h1 {
+    font-family: Quicksand, Geneva, Tahoma, sans-serif;
+    font-size: 80px;
+    font-weight: 1000;
+    line-height: 0px;
+}
+
+h3 {
+    font-family: Quicksand, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+
+
+ul, ol, p {
+    font-family: Quicksand, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(44, 44, 44);
+    margin-top: -8px;
+}
+
+.back-button {
+    padding: 12px 24px 12px 20px;
+    border-radius: 24px;
+    font-family: Quicksand, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 16px;
+    background-color: #c8e3f9;
+    color: #1d4065;
+    text-decoration: none;
+    border-width: 5px;
+    border-color: #1d4065;
+
+    display: inline-flex;
+    align-items: center;
+
+    
+
+}
+
+.material-symbols-outlined {
+  font-size: 16px !important;
+  padding-right: 6px;
+ 
+}
